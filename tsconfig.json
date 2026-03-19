@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          /* Especifica la versión de destino de ECMAScript. */
+    "module": "es6",                          /* Especifica la generación de código del módulo. */
+    "moduleResolution": "node",                /* Especifica cómo se resuelven los módulos. */
+    "outDir": "./dist",                       /* Redirige el output a esta carpeta. Importante para ordenar. */
+    "strict": true,                           /* Habilita todas las comprobaciones de tipo estrictas. */
+    "esModuleInterop": true,                  /* Habilita la interoperabilidad entre módulos CommonJS y ES. */
+    "skipLibCheck": true,                     /* Omite la comprobación de tipo de los archivos de declaración. */
+    "forceConsistentCasingInFileNames": true  /* No permite referencias con mayúsculas/minúsculas inconsistentes. */
+  },
+  "include": ["src/**/*"]                      /* Incluye todos los archivos dentro de la carpeta 'src'. */
+}
